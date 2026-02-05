@@ -1,0 +1,24 @@
+/* src/index.css */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  /* Garante que o fundo seja branco por padrão */
+  background-color: #ffffff; 
+  color: #213547;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%; /* Força largura total */
+  display: block; /* Remove o display flex padrão do Vite que quebra layouts */
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
